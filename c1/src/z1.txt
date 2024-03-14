@@ -1,0 +1,12 @@
+Implementacja interfejsu polega na zdefiniowaniu metody lub zestawu metod, które klasa musi dostarczyć.
+Implementacja interfejsu jest statyczna, nie można jej łatwo zmienić bez zmiany kodu źródłowego klasy, która implementuje interfejs.
+Wzorzec Strategia polega na zdefiniowaniu różnych algorytmów jako oddzielnych klas,
+które mogą być zmieniane w trakcie działania programu.
+
+Zalety:
+- pozwala na zmianę zachowania obiektu w trakcie działania programu
+- ułatwia testowanie poprzez możliwość podmiany strategii
+
+Wady:
+- wprowadza dodatkowe klasy i interakcje, co może skomplikować strukturę kodu
+- wymiana algorytmów może wprowadzać dodatkowy narzut czasowy związany z wyborem odpowiedniego algorytmu
